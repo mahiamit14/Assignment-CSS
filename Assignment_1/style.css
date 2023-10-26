@@ -1,0 +1,35 @@
+#heading{
+    color: rgb(197, 15, 15);
+}
+.h2{
+    color: rgb(222, 90, 42);
+    font-style: italic;
+}
+#span-1{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+#span-2{
+    font-weight: bold;
+    background-color: yellow;
+}
+li{
+    color: brown;
+    line-height: 35px;
+  
+}
+#li-4{
+    text-decoration: underline;
+}
+#span-3{
+    background-color: yellow;
+}
+#ul li{
+    letter-spacing: 5px;
+}
+p{
+    color: brown;
+}
+a{
+   background-color: yellow; 
+}
