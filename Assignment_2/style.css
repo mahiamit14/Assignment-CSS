@@ -1,78 +1,88 @@
 html {
-   height: 100%;
-   width: 100%;
-   background-color: #fff;
-   border: 5px groove #adff2f;
-   background-attachment: fixed;
-   /* background-image: url(./bgimage.jpg); */
-   background-repeat: no-repeat;
+   background-image: url(./wallpaperflare.com_wallpaper\ \(5\).jpg);
    background-size: cover;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border: 10px rgb(26, 204, 26) groove;
+   height: 3000px;
 }
+
 
 .welcome {
    background-color: black;
    color: white;
-   height: 100px;
+   height: 110px;
    width: 500px;
-   border: 5px solid red;
-   border-radius: 20px;
-   font-style: italic;
-   padding-left: 20px;
-}
-
-.home {
-   background-color: black;
-   color: white;
-   height: 50px;
-   width: 300px;
    border: 5px solid red;
    border-radius: 30px;
    font-style: italic;
-   padding-left: 40px;
+   margin: 10px;
+   display: inline-block;
+   text-align: center;
+   padding: 20px;
+}
+.home {
+   background-color: black;
+   color: white;
+   height: 70px;
+   width: 450px;
+   border: 5px solid red;
+   border-radius: 40px;
+   font-style: italic;
+   text-align: center;
+   display: inline-block;
    position: absolute;
-   top: 30px;
-   left: 300px;
+   left: 350px; 
 
 }
-
 .contact {
    background-color: black;
    color: white;
-   height: 100px;
-   width: 200px;
+   height: 150px;
+   width: 400px;
    border: 5px solid red;
-   border-radius: 20px;
-   position: absolute;
-   top: 10px;
-   left: 1260px;
+   border-radius: 40px;
    font-style: italic;
-   padding-left: 30px;
-   padding-bottom: 5px;
-   /* text-align: center; */
+   display: inline-block;
+   position: absolute;
+   left: 980px;
+   top: 30px;
+   padding-left: 100px;
+}
+
+.contact h3 {
+   padding-left: 10px;
 }
 
 .form {
    background-color: #fff;
-   border: 5px dotted red;
+   border: 5px dashed red;
    border-radius: 5px;
    text-align: center;
-   width: 300px;
+   width: 400px;
    color: rgb(249, 111, 111);
-   position: absolute;
-   top: 200px;
-   left: 800px;
+   /* position: absolute; */
+   /* top: 200px; */
+   /* left: 800px; */
+   display: block;
+   margin-top: 80px;
+   margin-left: 650px ;
+   padding: 10px;
+   /* font-size: 20px; */
 
 
 }
-
+   
 input[type="text"],
 input[type="email"],
-input[type="date"] {
+input[type="date"],
+input[type="checkbox"],
+type[type="reset"] {
    background-color: #fff;
    border-radius: 5px;
    width: 200px;
    height: 20px;
-   margin: 10px;
+   margin: 4px;
 }
 
 .offer {
@@ -82,11 +92,18 @@ input[type="date"] {
    border-radius: 50%;
    background-color: teal;
    text-align: center;
+   display: inline-block;
+   position: absolute;
+   left: 40px;
+   top: 400px;
+   
+   
+
 }
 
 .menu {
-   height: 50px;
-   width: 300px;
+   height: 70px;
+   width: 600px;
    border: 5px solid red;
    background-color: #000;
    position: absolute;
@@ -94,6 +111,11 @@ input[type="date"] {
    border-radius: 30px;
    text-align: center;
    padding-bottom: 10px;
+   margin-left: 450px;
+   margin-top: 50px;
+   font-size: 20px;
+   font-style: italic;
+
 }
 
 .food-menu div {
@@ -102,7 +124,7 @@ input[type="date"] {
    text-align: center;
    /* display: flex; */
    height: 250px;
-   width: 250px;
+   width: 400px;
    border: 2px solid aqua;
    border-radius: 25px;
    box-shadow: 2px 2px 5px black;
@@ -110,9 +132,9 @@ input[type="date"] {
 }
 
 .food-menu {
-   top: 800px;
+   top: 1100px;
    height: 600px;
-   width: 900px;
+   width: 100%;
    position: absolute;
    display: flex;
    flex-wrap: wrap;
