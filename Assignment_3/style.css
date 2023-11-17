@@ -37,7 +37,7 @@ body {
 
 .box div {
     height: 250px;
-    width: 250px;
+    width: 220px;
     background-color: #fff;
     border: 7px solid rgb(170, 19, 19);
     border-radius: 10px;
@@ -55,29 +55,28 @@ body {
 }
 
 .box-2 {
-    margin-bottom: 80px;
-    line-height: 10px;
-    font-size: 20px;
+    margin-bottom: 50px;
+    font-size: 23.4px;
     font-weight: 900;
     text-shadow: 1px 1px 3px rgb(170, 30, 30);
 
 }
 
 .box-3 {
-    margin-left: 850px;
+    margin-left: 880px;
 }
 
 .box-3 img {
-    margin-left: 25px;
-    margin-top: 50px;
-    height: 150px;
-    width: 200px;
+    margin-left: 15px;
+    margin-top: 45px;
+    height: 160px;
+    width: 190px;
 
 }
 
 .box-4 {
-    margin-left: 850px;
-    margin-bottom: 80px;
+    margin-left: 880px;
+    margin-bottom: 50px;
     text-align: center;
     text-shadow: 1px 1px 3px rgb(170, 30, 30);
 }
@@ -160,12 +159,10 @@ body {
 
 }
 
-.offer,
-h3 {
+.offer h3 {
     margin-right: 50px;
 }
 
-.offer,
-h4 {
-    padding-bottom: 3px;
+.discount{
+padding-bottom: 10px;
 }
