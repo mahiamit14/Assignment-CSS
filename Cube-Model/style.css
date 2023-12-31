@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+   
+    background-color: #414141;
+    box-sizing: border-box;
+    color: aqua;
+    font-family: serif;
+}

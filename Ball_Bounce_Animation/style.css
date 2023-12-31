@@ -1,0 +1,51 @@
+.container {
+    width: 100vh;
+    height: 80vh;
+    background-color: #414341;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 60vh;
+    left: 10px;
+    animation-name: ball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+
+}
+
+@keyframes ball {
+    0% {
+        top: 500px;
+        left: 0px;
+    }
+
+    25% {
+        top: 200px;
+        transform: translateX(100px);
+    }
+
+    50% {
+        top: 500px;
+        left: 200px;
+        transform: translateX(200px);
+    }
+
+    75% {
+        top: 200px;
+        left: 300px; 
+        transform: translateX(200px);
+    }
+
+    100% {
+        top: 500px;
+        transform: translateX(200px);
+        left: 400px;
+
+    }
+}

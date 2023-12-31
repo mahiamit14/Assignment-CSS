@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+
+@media screen and (max-width:420px) {
+    h1{
+        color: teal;
+    }
+}
